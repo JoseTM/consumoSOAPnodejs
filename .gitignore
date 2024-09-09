@@ -1,0 +1,11 @@
+*.p12
+*.crt
+*.pem
+*.swp
+config.env
+.vscode
+.vscode/*
+package-lock.json
+/node_modules
+/node_modules/*
+

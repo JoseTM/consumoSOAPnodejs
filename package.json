@@ -1,0 +1,16 @@
+{
+   "scripts": {
+      "connect": "node  platino.js",
+      "connect-insecure": "node --openssl-shared-config --openssl-legacy-provider --openssl-config=./openssl.conf platino.js",
+      "clean": "rm -rf node_modules && rm package-lock.json"
+   },   
+   "dependencies": {
+    "dotenv": "^16.4.5",
+    "soap": "https://github.com/JoseTM/node-soap.git#feature-inform-signaturealgorithm",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  },
+  "type": "module"
+}
